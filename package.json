@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "postinstall": "git lfs pull",
+    "postinstall": "git lfs install && git lfs pull",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
@@ -19,7 +19,8 @@
     "react-hot-toast": "^2.4.1",
     "react-icons": "^5.3.0",
     "react-router-dom": "^6.26.2",
-    "styled-components": "^6.1.13"
+    "styled-components": "^6.1.13",
+    "git-lfs": "latest"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.0",
